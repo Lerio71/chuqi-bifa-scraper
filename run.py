@@ -52,7 +52,7 @@ def main():
         print("正在获取今日比赛列表...")
         matches = get_today_matches()
         eventids = [m["eventid"] for m in matches]
-        print(f"找到 {len(matches)} 场有必发数据的比赛")
+        print(f"找到 {len(matches)} 场今日比赛（采集时会跳过无必发数据的场次）")
 
         # 保存比赛列表
         from scraper.storage import DATA_DIR, TZ

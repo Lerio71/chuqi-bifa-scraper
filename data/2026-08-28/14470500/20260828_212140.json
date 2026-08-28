@@ -1,0 +1,213 @@
+{
+  "eventid": "14470500",
+  "url": "https://live.chuqi.com/football/live-bifa/14470500/",
+  "snapshot_time": "2026-08-28T21:21:38.607893+08:00",
+  "league": "阿甲",
+  "home": "博卡青年",
+  "away": "拉努斯",
+  "summary": [
+    {
+      "side": "主",
+      "price": 1.9,
+      "volume": 900,
+      "ratio": 51.0,
+      "pnl": 200,
+      "pnl_index": 3,
+      "hot_cold_index": 1.64
+    },
+    {
+      "side": "和",
+      "price": 3.45,
+      "volume": 500,
+      "ratio": 25.0,
+      "pnl": 57,
+      "pnl_index": 13,
+      "hot_cold_index": 3.27
+    },
+    {
+      "side": "客",
+      "price": 5.6,
+      "volume": 400,
+      "ratio": 24.0,
+      "pnl": -705,
+      "pnl_index": -30,
+      "hot_cold_index": 11.81
+    }
+  ],
+  "large_trades": {
+    "主": [
+      {
+        "price": 1.96,
+        "volume": 390,
+        "ratio": 64.39,
+        "time": "08-28 10:35"
+      },
+      {
+        "price": 1.93,
+        "volume": 83,
+        "ratio": 66.79,
+        "time": "08-28 12:12"
+      },
+      {
+        "price": 1.9,
+        "volume": 78,
+        "ratio": 57.84,
+        "time": "08-28 19:53"
+      },
+      {
+        "price": 1.91,
+        "volume": 47,
+        "ratio": 87.53,
+        "time": "08-27 10:17"
+      },
+      {
+        "price": 1.78,
+        "volume": 33,
+        "ratio": 84.98,
+        "time": "08-27 07:39"
+      },
+      {
+        "price": 1.91,
+        "volume": 21,
+        "ratio": 90.6,
+        "time": "08-28 09:22"
+      },
+      {
+        "price": 1.9,
+        "volume": 21,
+        "ratio": 49.6,
+        "time": "08-28 09:47"
+      },
+      {
+        "price": 1.91,
+        "volume": 15,
+        "ratio": 90.02,
+        "time": "08-28 09:10"
+      },
+      {
+        "price": 1.89,
+        "volume": 15,
+        "ratio": 67.19,
+        "time": "08-28 13:36"
+      },
+      {
+        "price": 1.89,
+        "volume": 1,
+        "ratio": 56.47,
+        "time": "08-28 19:12"
+      }
+    ],
+    "和": [
+      {
+        "price": 3.45,
+        "volume": 326,
+        "ratio": 48.52,
+        "time": "08-28 09:47"
+      },
+      {
+        "price": 3.4,
+        "volume": 53,
+        "ratio": 33.35,
+        "time": "08-28 15:26"
+      },
+      {
+        "price": 3.3,
+        "volume": 36,
+        "ratio": 33.14,
+        "time": "08-28 10:35"
+      },
+      {
+        "price": 3.45,
+        "volume": 21,
+        "ratio": 28.74,
+        "time": "08-28 19:53"
+      },
+      {
+        "price": 3.6,
+        "volume": 2,
+        "ratio": 9.18,
+        "time": "08-27 07:39"
+      }
+    ],
+    "客": [
+      {
+        "price": 5.6,
+        "volume": 154,
+        "ratio": 23.85,
+        "time": "08-28 20:33"
+      },
+      {
+        "price": 5.2,
+        "volume": 145,
+        "ratio": 14.31,
+        "time": "08-28 18:40"
+      },
+      {
+        "price": 5.4,
+        "volume": 43,
+        "ratio": 16.76,
+        "time": "08-28 20:15"
+      },
+      {
+        "price": 5.5,
+        "volume": 39,
+        "ratio": 5.05,
+        "time": "08-28 17:04"
+      },
+      {
+        "price": 5.4,
+        "volume": 21,
+        "ratio": 14.57,
+        "time": "08-28 19:57"
+      },
+      {
+        "price": 5.5,
+        "volume": 15,
+        "ratio": 2.47,
+        "time": "08-28 10:35"
+      },
+      {
+        "price": 6,
+        "volume": 1,
+        "ratio": 5.84,
+        "time": "08-27 07:39"
+      }
+    ]
+  },
+  "trends": {
+    "主": [
+      {
+        "volume": 1.89,
+        "time": "08-28 19:12"
+      },
+      {
+        "volume": 148.2,
+        "time": "08-28 19:53"
+      }
+    ],
+    "和": [
+      {
+        "volume": 180.2,
+        "time": "08-28 15:26"
+      },
+      {
+        "volume": 72.45,
+        "time": "08-28 19:53"
+      }
+    ],
+    "客": [
+      {
+        "volume": 214.5,
+        "time": "08-28 17:04"
+      },
+      {
+        "volume": 754,
+        "time": "08-28 18:40"
+      },
+      {
+        "volume": 113.4,
+        "time": "08-28 19:57"
+      }
+    ]
+  }
+}

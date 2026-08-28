@@ -1,5 +1,534 @@
 {
   "date": "2026-08-28",
-  "count": 0,
-  "matches": []
+  "count": 66,
+  "matches": [
+    {
+      "eventid": "14027515",
+      "league": "韩国职业乙级足球联赛",
+      "home": "安山小绿人",
+      "away": "大邱FC",
+      "time": "2026-08-28 18:30",
+      "url": "https://live.chuqi.com/football/live-bifa/14027515/"
+    },
+    {
+      "eventid": "14027517",
+      "league": "韩国职业乙级足球联赛",
+      "home": "全南天龙",
+      "away": "天安城",
+      "time": "2026-08-28 18:30",
+      "url": "https://live.chuqi.com/football/live-bifa/14027517/"
+    },
+    {
+      "eventid": "14621423",
+      "league": "罗马尼亚甲组联赛",
+      "home": "沃伦塔利",
+      "away": "加拉茨钢铁",
+      "time": "2026-08-28 23:00",
+      "url": "https://live.chuqi.com/football/live-bifa/14621423/"
+    },
+    {
+      "eventid": "13999322",
+      "league": "芬兰甲组联赛",
+      "home": "KTP科特卡",
+      "away": "哈卡",
+      "time": "2026-08-28 23:30",
+      "url": "https://live.chuqi.com/football/live-bifa/13999322/"
+    },
+    {
+      "eventid": "13999320",
+      "league": "芬兰甲组联赛",
+      "home": "查普斯",
+      "away": "卡亚尼卡帕",
+      "time": "2026-08-28 23:30",
+      "url": "https://live.chuqi.com/football/live-bifa/13999320/"
+    },
+    {
+      "eventid": "14588216",
+      "league": "波兰甲级联赛",
+      "home": "华沙普洛克",
+      "away": "凯尔采科罗纳",
+      "time": "2026-08-29 00:00",
+      "url": "https://live.chuqi.com/football/live-bifa/14588216/"
+    },
+    {
+      "eventid": "14618280",
+      "league": "德国乙级联赛",
+      "home": "布伦瑞克",
+      "away": "柏林赫塔",
+      "time": "2026-08-29 00:30",
+      "url": "https://live.chuqi.com/football/live-bifa/14618280/"
+    },
+    {
+      "eventid": "14618214",
+      "league": "德国乙级联赛",
+      "home": "波鸿",
+      "away": "奥斯纳布吕克",
+      "time": "2026-08-29 00:30",
+      "url": "https://live.chuqi.com/football/live-bifa/14618214/"
+    },
+    {
+      "eventid": "14621905",
+      "league": "奥地利乙组联赛",
+      "home": "圣珀尔滕",
+      "away": "奥地利萨尔斯堡",
+      "time": "2026-08-29 00:30",
+      "url": "https://live.chuqi.com/football/live-bifa/14621905/"
+    },
+    {
+      "eventid": "14621871",
+      "league": "奥地利乙组联赛",
+      "home": "第一维也纳",
+      "away": "阿姆斯特顿",
+      "time": "2026-08-29 00:30",
+      "url": "https://live.chuqi.com/football/live-bifa/14621871/"
+    },
+    {
+      "eventid": "14621899",
+      "league": "奥地利乙组联赛",
+      "home": "卡芬堡",
+      "away": "BW林茨",
+      "time": "2026-08-29 00:30",
+      "url": "https://live.chuqi.com/football/live-bifa/14621899/"
+    },
+    {
+      "eventid": "14621859",
+      "league": "奥地利乙组联赛",
+      "home": "禾斯贝治",
+      "away": "列弗宁",
+      "time": "2026-08-29 00:30",
+      "url": "https://live.chuqi.com/football/live-bifa/14621859/"
+    },
+    {
+      "eventid": "14614102",
+      "league": "西班牙足球甲级联赛",
+      "home": "桑坦德竞技",
+      "away": "埃尔切",
+      "time": "2026-08-29 01:00",
+      "url": "https://live.chuqi.com/football/live-bifa/14614102/"
+    },
+    {
+      "eventid": "14645844",
+      "league": "葡萄牙甲组联赛",
+      "home": "莱里亚",
+      "away": "通德拉",
+      "time": "2026-08-29 01:00",
+      "url": "https://live.chuqi.com/football/live-bifa/14645844/"
+    },
+    {
+      "eventid": "14572758",
+      "league": "丹麦超级联赛",
+      "home": "霍森斯",
+      "away": "维堡",
+      "time": "2026-08-29 01:00",
+      "url": "https://live.chuqi.com/football/live-bifa/14572758/"
+    },
+    {
+      "eventid": "14582168",
+      "league": "瑞士甲级联赛",
+      "home": "伊韦尔东",
+      "away": "韦尔",
+      "time": "2026-08-29 01:30",
+      "url": "https://live.chuqi.com/football/live-bifa/14582168/"
+    },
+    {
+      "eventid": "14582166",
+      "league": "瑞士甲级联赛",
+      "home": "温特图尔",
+      "away": "乌契",
+      "time": "2026-08-29 01:30",
+      "url": "https://live.chuqi.com/football/live-bifa/14582166/"
+    },
+    {
+      "eventid": "14582164",
+      "league": "瑞士甲级联赛",
+      "home": "克里恩斯",
+      "away": "尼奈斯",
+      "time": "2026-08-29 01:30",
+      "url": "https://live.chuqi.com/football/live-bifa/14582164/"
+    },
+    {
+      "eventid": "14620387",
+      "league": "奥地利甲级联赛",
+      "home": "奥地利卢斯特瑙",
+      "away": "WSG蒂罗尔",
+      "time": "2026-08-29 01:30",
+      "url": "https://live.chuqi.com/football/live-bifa/14620387/"
+    },
+    {
+      "eventid": "14571790",
+      "league": "法国乙级联赛",
+      "home": "蒙彼利埃",
+      "away": "布洛涅",
+      "time": "2026-08-29 02:00",
+      "url": "https://live.chuqi.com/football/live-bifa/14571790/"
+    },
+    {
+      "eventid": "14571782",
+      "league": "法国乙级联赛",
+      "home": "克莱蒙",
+      "away": "索肖",
+      "time": "2026-08-29 02:00",
+      "url": "https://live.chuqi.com/football/live-bifa/14571782/"
+    },
+    {
+      "eventid": "14571788",
+      "league": "法国乙级联赛",
+      "home": "拉瓦勒",
+      "away": "格勒诺布尔",
+      "time": "2026-08-29 02:00",
+      "url": "https://live.chuqi.com/football/live-bifa/14571788/"
+    },
+    {
+      "eventid": "14571792",
+      "league": "法国乙级联赛",
+      "home": "南锡",
+      "away": "敦刻尔克",
+      "time": "2026-08-29 02:00",
+      "url": "https://live.chuqi.com/football/live-bifa/14571792/"
+    },
+    {
+      "eventid": "14571796",
+      "league": "法国乙级联赛",
+      "home": "罗德兹",
+      "away": "波城",
+      "time": "2026-08-29 02:00",
+      "url": "https://live.chuqi.com/football/live-bifa/14571796/"
+    },
+    {
+      "eventid": "14568080",
+      "league": "荷兰甲级联赛",
+      "home": "格罗宁根",
+      "away": "福图纳锡塔德",
+      "time": "2026-08-29 02:00",
+      "url": "https://live.chuqi.com/football/live-bifa/14568080/"
+    },
+    {
+      "eventid": "14567336",
+      "league": "荷兰乙级联赛",
+      "home": "罗达JC",
+      "away": "布雷达",
+      "time": "2026-08-29 02:00",
+      "url": "https://live.chuqi.com/football/live-bifa/14567336/"
+    },
+    {
+      "eventid": "14567334",
+      "league": "荷兰乙级联赛",
+      "home": "奥斯",
+      "away": "乌德勒支青年队",
+      "time": "2026-08-29 02:00",
+      "url": "https://live.chuqi.com/football/live-bifa/14567334/"
+    },
+    {
+      "eventid": "14567338",
+      "league": "荷兰乙级联赛",
+      "home": "瓦尔韦克",
+      "away": "埃因霍温青年队",
+      "time": "2026-08-29 02:00",
+      "url": "https://live.chuqi.com/football/live-bifa/14567338/"
+    },
+    {
+      "eventid": "14567332",
+      "league": "荷兰乙级联赛",
+      "home": "阿尔克马尔青年队",
+      "away": "马斯特里赫特",
+      "time": "2026-08-29 02:00",
+      "url": "https://live.chuqi.com/football/live-bifa/14567332/"
+    },
+    {
+      "eventid": "14567330",
+      "league": "荷兰乙级联赛",
+      "home": "阿贾克斯U21",
+      "away": "赫尔蒙德",
+      "time": "2026-08-29 02:00",
+      "url": "https://live.chuqi.com/football/live-bifa/14567330/"
+    },
+    {
+      "eventid": "14567328",
+      "league": "荷兰乙级联赛",
+      "home": "福伦丹",
+      "away": "多德勒支",
+      "time": "2026-08-29 02:00",
+      "url": "https://live.chuqi.com/football/live-bifa/14567328/"
+    },
+    {
+      "eventid": "14595728",
+      "league": "比利时乙组联赛",
+      "home": "SC洛克伦",
+      "away": "亨克B队",
+      "time": "2026-08-29 02:00",
+      "url": "https://live.chuqi.com/football/live-bifa/14595728/"
+    },
+    {
+      "eventid": "14595726",
+      "league": "比利时乙组联赛",
+      "home": "KS卡玛特",
+      "away": "根特B队",
+      "time": "2026-08-29 02:00",
+      "url": "https://live.chuqi.com/football/live-bifa/14595726/"
+    },
+    {
+      "eventid": "14621429",
+      "league": "罗马尼亚甲组联赛",
+      "home": "克卢日大学",
+      "away": "佩特罗鲁",
+      "time": "2026-08-29 02:00",
+      "url": "https://live.chuqi.com/football/live-bifa/14621429/"
+    },
+    {
+      "eventid": "14722646",
+      "league": "沙特阿拉伯联",
+      "home": "塞哈特海湾",
+      "away": "利雅得新月",
+      "time": "2026-08-29 02:00",
+      "url": "https://live.chuqi.com/football/live-bifa/14722646/"
+    },
+    {
+      "eventid": "14582172",
+      "league": "瑞士甲级联赛",
+      "home": "卡洛治",
+      "away": "瑞普斯威尔",
+      "time": "2026-08-29 02:15",
+      "url": "https://live.chuqi.com/football/live-bifa/14582172/"
+    },
+    {
+      "eventid": "14582170",
+      "league": "瑞士甲级联赛",
+      "home": "阿劳",
+      "away": "纳沙泰尔",
+      "time": "2026-08-29 02:15",
+      "url": "https://live.chuqi.com/football/live-bifa/14582170/"
+    },
+    {
+      "eventid": "14616233",
+      "league": "德国足球甲级联赛",
+      "home": "拜仁慕尼黑",
+      "away": "斯图加特",
+      "time": "2026-08-29 02:30",
+      "url": "https://live.chuqi.com/football/live-bifa/14616233/"
+    },
+    {
+      "eventid": "14707435",
+      "league": "意大利乙级联赛",
+      "home": "克雷莫纳",
+      "away": "摩德纳",
+      "time": "2026-08-29 02:30",
+      "url": "https://live.chuqi.com/football/live-bifa/14707435/"
+    },
+    {
+      "eventid": "14584919",
+      "league": "苏格兰冠军联赛",
+      "home": "邓弗姆林",
+      "away": "拉茨流浪者",
+      "time": "2026-08-29 02:30",
+      "url": "https://live.chuqi.com/football/live-bifa/14584919/"
+    },
+    {
+      "eventid": "14621881",
+      "league": "奥地利乙组联赛",
+      "home": "赫塔韦尔斯",
+      "away": "阿德米拉",
+      "time": "2026-08-29 02:30",
+      "url": "https://live.chuqi.com/football/live-bifa/14621881/"
+    },
+    {
+      "eventid": "14588204",
+      "league": "波兰甲级联赛",
+      "home": "华沙莱吉亚",
+      "away": "弗罗茨瓦夫斯拉斯克",
+      "time": "2026-08-29 02:30",
+      "url": "https://live.chuqi.com/football/live-bifa/14588204/"
+    },
+    {
+      "eventid": "14552248",
+      "league": "意大利足球甲级联赛",
+      "home": "AC米兰",
+      "away": "威尼斯",
+      "time": "2026-08-29 02:45",
+      "url": "https://live.chuqi.com/football/live-bifa/14552248/"
+    },
+    {
+      "eventid": "14561964",
+      "league": "法国足球甲级联赛",
+      "home": "里尔",
+      "away": "巴黎圣日耳曼",
+      "time": "2026-08-29 02:45",
+      "url": "https://live.chuqi.com/football/live-bifa/14561964/"
+    },
+    {
+      "eventid": "13932536",
+      "league": "爱尔兰超级联赛",
+      "home": "波希米亚人",
+      "away": "斯莱戈流浪者",
+      "time": "2026-08-29 02:45",
+      "url": "https://live.chuqi.com/football/live-bifa/13932536/"
+    },
+    {
+      "eventid": "13932542",
+      "league": "爱尔兰超级联赛",
+      "home": "戈尔韦联",
+      "away": "舒尔本",
+      "time": "2026-08-29 02:45",
+      "url": "https://live.chuqi.com/football/live-bifa/13932542/"
+    },
+    {
+      "eventid": "13932544",
+      "league": "爱尔兰超级联赛",
+      "home": "圣帕特里克竞技",
+      "away": "沃特福德联队",
+      "time": "2026-08-29 02:45",
+      "url": "https://live.chuqi.com/football/live-bifa/13932544/"
+    },
+    {
+      "eventid": "14106502",
+      "league": "爱尔兰甲组联赛",
+      "home": "科布漫步者",
+      "away": "朗福德城",
+      "time": "2026-08-29 02:45",
+      "url": "https://live.chuqi.com/football/live-bifa/14106502/"
+    },
+    {
+      "eventid": "14106504",
+      "league": "爱尔兰甲组联赛",
+      "home": "科克城",
+      "away": "韦克斯福德",
+      "time": "2026-08-29 02:45",
+      "url": "https://live.chuqi.com/football/live-bifa/14106504/"
+    },
+    {
+      "eventid": "14106506",
+      "league": "爱尔兰甲组联赛",
+      "home": "凯里FC",
+      "away": "条约联",
+      "time": "2026-08-29 02:45",
+      "url": "https://live.chuqi.com/football/live-bifa/14106506/"
+    },
+    {
+      "eventid": "14106508",
+      "league": "爱尔兰甲组联赛",
+      "home": "都柏林大学",
+      "away": "费恩夏普",
+      "time": "2026-08-29 02:45",
+      "url": "https://live.chuqi.com/football/live-bifa/14106508/"
+    },
+    {
+      "eventid": "14106500",
+      "league": "爱尔兰甲组联赛",
+      "home": "阿斯隆城",
+      "away": "布雷流浪者",
+      "time": "2026-08-29 02:45",
+      "url": "https://live.chuqi.com/football/live-bifa/14106500/"
+    },
+    {
+      "eventid": "14587139",
+      "league": "英格兰足球超级联赛",
+      "home": "水晶宫",
+      "away": "曼彻斯特城",
+      "time": "2026-08-29 03:00",
+      "url": "https://live.chuqi.com/football/live-bifa/14587139/"
+    },
+    {
+      "eventid": "14604497",
+      "league": "英格兰冠军联赛",
+      "home": "雷克瑟姆",
+      "away": "伯明翰",
+      "time": "2026-08-29 03:00",
+      "url": "https://live.chuqi.com/football/live-bifa/14604497/"
+    },
+    {
+      "eventid": "14620795",
+      "league": "西班牙乙级联赛",
+      "home": "特内里费",
+      "away": "希洪竞技",
+      "time": "2026-08-29 03:00",
+      "url": "https://live.chuqi.com/football/live-bifa/14620795/"
+    },
+    {
+      "eventid": "13932540",
+      "league": "爱尔兰超级联赛",
+      "home": "德罗赫达联",
+      "away": "邓多克",
+      "time": "2026-08-29 03:00",
+      "url": "https://live.chuqi.com/football/live-bifa/13932540/"
+    },
+    {
+      "eventid": "14646462",
+      "league": "葡萄牙超级联赛",
+      "home": "里奥阿维",
+      "away": "葡萄牙体育",
+      "time": "2026-08-29 03:15",
+      "url": "https://live.chuqi.com/football/live-bifa/14646462/"
+    },
+    {
+      "eventid": "14614080",
+      "league": "西班牙足球甲级联赛",
+      "home": "阿拉维斯",
+      "away": "比利亚雷亚尔",
+      "time": "2026-08-29 03:30",
+      "url": "https://live.chuqi.com/football/live-bifa/14614080/"
+    },
+    {
+      "eventid": "14470522",
+      "league": "阿根廷足球超级联赛",
+      "home": "圣塔菲联",
+      "away": "萨米恩托",
+      "time": "2026-08-29 06:00",
+      "url": "https://live.chuqi.com/football/live-bifa/14470522/"
+    },
+    {
+      "eventid": "14113491",
+      "league": "巴西乙级联赛",
+      "home": "戈亚斯",
+      "away": "圣贝尔纳多",
+      "time": "2026-08-29 06:30",
+      "url": "https://live.chuqi.com/football/live-bifa/14113491/"
+    },
+    {
+      "eventid": "13991986",
+      "league": "智利甲组联赛",
+      "home": "科布雷萨尔",
+      "away": "帕莱斯蒂诺",
+      "time": "2026-08-29 06:30",
+      "url": "https://live.chuqi.com/football/live-bifa/13991986/"
+    },
+    {
+      "eventid": "14117618",
+      "league": "巴西乙级联赛",
+      "home": "累西腓航海",
+      "away": "巴西竞技",
+      "time": "2026-08-29 07:30",
+      "url": "https://live.chuqi.com/football/live-bifa/14117618/"
+    },
+    {
+      "eventid": "14113495",
+      "league": "巴西乙级联赛",
+      "home": "诺瓦里桑蒂诺",
+      "away": "累西腓体育",
+      "time": "2026-08-29 07:30",
+      "url": "https://live.chuqi.com/football/live-bifa/14113495/"
+    },
+    {
+      "eventid": "14470500",
+      "league": "阿根廷足球超级联赛",
+      "home": "博卡青年",
+      "away": "拉努斯",
+      "time": "2026-08-29 08:30",
+      "url": "https://live.chuqi.com/football/live-bifa/14470500/"
+    },
+    {
+      "eventid": "14573054",
+      "league": "墨西哥联赛",
+      "home": "内卡萨",
+      "away": "蓝十字",
+      "time": "2026-08-29 09:00",
+      "url": "https://live.chuqi.com/football/live-bifa/14573054/"
+    },
+    {
+      "eventid": "14573052",
+      "league": "墨西哥联赛",
+      "home": "亚特兰特",
+      "away": "莱昂",
+      "time": "2026-08-29 09:00",
+      "url": "https://live.chuqi.com/football/live-bifa/14573052/"
+    }
+  ]
 }

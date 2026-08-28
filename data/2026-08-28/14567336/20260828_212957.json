@@ -1,0 +1,162 @@
+{
+  "eventid": "14567336",
+  "url": "https://live.chuqi.com/football/live-bifa/14567336/",
+  "snapshot_time": "2026-08-28T21:29:28.001490+08:00",
+  "league": "荷乙",
+  "home": "罗达JC",
+  "away": "布雷达",
+  "summary": [
+    {
+      "side": "主",
+      "price": 3.35,
+      "volume": 400,
+      "ratio": 36.0,
+      "pnl": -75,
+      "pnl_index": -12,
+      "hot_cold_index": 8.58
+    },
+    {
+      "side": "和",
+      "price": 3.85,
+      "volume": 200,
+      "ratio": 17.0,
+      "pnl": 562,
+      "pnl_index": 36,
+      "hot_cold_index": 7.22
+    },
+    {
+      "side": "客",
+      "price": 2.28,
+      "volume": 500,
+      "ratio": 47.0,
+      "pnl": -280,
+      "pnl_index": -9,
+      "hot_cold_index": 2.55
+    }
+  ],
+  "large_trades": {
+    "主": [
+      {
+        "price": 3.2,
+        "volume": 183,
+        "ratio": 47.61,
+        "time": "08-28 17:05"
+      },
+      {
+        "price": 3.2,
+        "volume": 64,
+        "ratio": 35.56,
+        "time": "08-28 14:03"
+      },
+      {
+        "price": 3.25,
+        "volume": 54,
+        "ratio": 36.87,
+        "time": "08-28 15:46"
+      }
+    ],
+    "和": [
+      {
+        "price": 4,
+        "volume": 47,
+        "ratio": 40.57,
+        "time": "08-28 04:53"
+      },
+      {
+        "price": 3.8,
+        "volume": 37,
+        "ratio": 45.91,
+        "time": "08-28 12:35"
+      }
+    ],
+    "客": [
+      {
+        "price": 2.32,
+        "volume": 281,
+        "ratio": 47.4,
+        "time": "08-28 18:10"
+      },
+      {
+        "price": 2.28,
+        "volume": 82,
+        "ratio": 35.67,
+        "time": "08-28 02:50"
+      },
+      {
+        "price": 2.32,
+        "volume": 75,
+        "ratio": 31.8,
+        "time": "08-28 15:46"
+      },
+      {
+        "price": 2.32,
+        "volume": 64,
+        "ratio": 38.26,
+        "time": "08-28 16:37"
+      },
+      {
+        "price": 2.3,
+        "volume": 1,
+        "ratio": 47.39,
+        "time": "08-28 20:30"
+      },
+      {
+        "price": 2.28,
+        "volume": 1,
+        "ratio": 47.41,
+        "time": "08-28 20:49"
+      },
+      {
+        "price": 2.28,
+        "volume": 1,
+        "ratio": 47.43,
+        "time": "08-28 20:58"
+      },
+      {
+        "price": 2.28,
+        "volume": 1,
+        "ratio": 47.45,
+        "time": "08-28 21:12"
+      }
+    ]
+  },
+  "trends": {
+    "主": [
+      {
+        "volume": 175.5,
+        "time": "08-28 15:46"
+      },
+      {
+        "volume": 585.6,
+        "time": "08-28 17:05"
+      }
+    ],
+    "和": [],
+    "客": [
+      {
+        "volume": 174,
+        "time": "08-28 15:46"
+      },
+      {
+        "volume": 148.48,
+        "time": "08-28 16:37"
+      },
+      {
+        "volume": 651.92,
+        "time": "08-28 18:10"
+      },
+      {
+        "volume": 2.3,
+        "time": "08-28 20:30"
+      },
+      {
+        "volume": 2.28,
+        "time": "08-28 20:49"
+      },
+      {
+        "volume": 2.28,
+        "time": "08-28 20:58"
+      }
+    ]
+  }
+}

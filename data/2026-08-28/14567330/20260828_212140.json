@@ -1,0 +1,161 @@
+{
+  "eventid": "14567330",
+  "url": "https://live.chuqi.com/football/live-bifa/14567330/",
+  "snapshot_time": "2026-08-28T21:21:05.840465+08:00",
+  "league": "荷乙",
+  "home": "阿贾克斯U21",
+  "away": "赫尔蒙德",
+  "summary": [
+    {
+      "side": "主",
+      "price": 2.3,
+      "volume": 1900,
+      "ratio": 62.0,
+      "pnl": -1236,
+      "pnl_index": -40,
+      "hot_cold_index": 5.97
+    },
+    {
+      "side": "和",
+      "price": 4,
+      "volume": 800,
+      "ratio": 27.0,
+      "pnl": -325,
+      "pnl_index": -12,
+      "hot_cold_index": 3.77
+    },
+    {
+      "side": "客",
+      "price": 3.2,
+      "volume": 300,
+      "ratio": 11.0,
+      "pnl": 1968,
+      "pnl_index": 66,
+      "hot_cold_index": 6.37
+    }
+  ],
+  "large_trades": {
+    "主": [
+      {
+        "price": 2.28,
+        "volume": 1508,
+        "ratio": 57.19,
+        "time": "08-28 18:56"
+      },
+      {
+        "price": 2.28,
+        "volume": 320,
+        "ratio": 61.72,
+        "time": "08-28 19:43"
+      },
+      {
+        "price": 2.28,
+        "volume": 1,
+        "ratio": 57.2,
+        "time": "08-28 19:10"
+      },
+      {
+        "price": 2.3,
+        "volume": 1,
+        "ratio": 61.73,
+        "time": "08-28 21:07"
+      },
+      {
+        "price": 2.3,
+        "volume": 1,
+        "ratio": 61.73,
+        "time": "08-28 21:12"
+      }
+    ],
+    "和": [
+      {
+        "price": 4.1,
+        "volume": 795,
+        "ratio": 69.11,
+        "time": "08-28 17:56"
+      },
+      {
+        "price": 4.1,
+        "volume": 1,
+        "ratio": 30.52,
+        "time": "08-28 19:10"
+      }
+    ],
+    "客": [
+      {
+        "price": 3.1,
+        "volume": 107,
+        "ratio": 75.02,
+        "time": "08-28 15:40"
+      },
+      {
+        "price": 3.2,
+        "volume": 74,
+        "ratio": 83.34,
+        "time": "08-28 17:46"
+      },
+      {
+        "price": 3.1,
+        "volume": 64,
+        "ratio": 58.3,
+        "time": "08-28 14:03"
+      },
+      {
+        "price": 3.05,
+        "volume": 59,
+        "ratio": 79.53,
+        "time": "08-28 17:09"
+      },
+      {
+        "price": 3,
+        "volume": 8,
+        "ratio": 30.31,
+        "time": "08-28 05:30"
+      }
+    ]
+  },
+  "trends": {
+    "主": [
+      {
+        "volume": 3438.24,
+        "time": "08-28 18:56"
+      },
+      {
+        "volume": 2.28,
+        "time": "08-28 19:10"
+      },
+      {
+        "volume": 729.6,
+        "time": "08-28 19:43"
+      },
+      {
+        "volume": 2.3,
+        "time": "08-28 21:07"
+      }
+    ],
+    "和": [
+      {
+        "volume": 3259.5,
+        "time": "08-28 17:56"
+      },
+      {
+        "volume": 4.1,
+        "time": "08-28 19:10"
+      }
+    ],
+    "客": [
+      {
+        "volume": 331.7,
+        "time": "08-28 15:40"
+      },
+      {
+        "volume": 179.95,
+        "time": "08-28 17:09"
+      },
+      {
+        "volume": 236.8,
+        "time": "08-28 17:46"
+      }
+    ]
+  }
+}
