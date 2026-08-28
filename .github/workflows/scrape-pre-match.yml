@@ -1,0 +1,74 @@
+# 赛前各时间段快照采集
+# 北京时间 12:00 / 18:00 / 22:00 / 01:00 / 03:00 / 03:30 / 03:45
+# cron 使用 UTC，北京 = UTC+8
+
+name: 赛前快照
+
+on:
+  schedule:
+    # 北京 12:00 = UTC 04:00 — 赛前24h
+    - cron: '0 4 * * *'
+    # 北京 18:00 = UTC 10:00 — 赛前12h
+    - cron: '0 10 * * *'
+    # 北京 22:00 = UTC 14:00 — 赛前6h
+    - cron: '0 14 * * *'
+    # 北京 01:00 = UTC 17:00 — 赛前3h
+    - cron: '0 17 * * *'
+    # 北京 03:00 = UTC 19:00 — 赛前1h
+    - cron: '0 19 * * *'
+    # 北京 03:30 = UTC 19:30 — 赛前30min
+    - cron: '30 19 * * *'
+    # 北京 03:45 = UTC 19:45 — 赛前15min
+    - cron: '45 19 * * *'
+  workflow_dispatch:
+    inputs:
+      label:
+        description: '标签'
+        required: false
+        default: 'manual'
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 安装依赖
+        run: pip install -r requirements.txt
+
+      - name: 确定标签
+        id: label
+        run: |
+          if [ -n "${{ github.event.inputs.label }}" ]; then
+            echo "label=${{ github.event.inputs.label }}" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+          UTC_HM=$(date -u +%H%M)
+          case "$UTC_HM" in
+            04*) echo "label=pre_24h" >> $GITHUB_OUTPUT ;;
+            10*) echo "label=pre_12h" >> $GITHUB_OUTPUT ;;
+            14*) echo "label=pre_6h" >> $GITHUB_OUTPUT ;;
+            17*) echo "label=pre_3h" >> $GITHUB_OUTPUT ;;
+            1900) echo "label=pre_1h" >> $GITHUB_OUTPUT ;;
+            1930) echo "label=pre_30min" >> $GITHUB_OUTPUT ;;
+            1945) echo "label=pre_15min" >> $GITHUB_OUTPUT ;;
+            *) echo "label=pre_auto" >> $GITHUB_OUTPUT ;;
+          esac
+
+      - name: 采集快照
+        run: python run.py --label "${{ steps.label.outputs.label }}"
+
+      - name: 提交数据
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet || (git commit -m "data: ${{ steps.label.outputs.label }} $(date -u +%Y-%m-%dT%H:%M)" && git push)
