@@ -1,0 +1,113 @@
+name: Chuqi Blind-Review Pipeline
+
+on:
+  workflow_dispatch:
+    inputs:
+      match_ids:
+        description: '比赛ID列表，逗号分隔；留空则使用 ids_file 指定文件'
+        required: false
+        default: ''
+      ids_file:
+        description: 'ID列表文件名（每行一个ID，放仓库根目录）'
+        required: false
+        default: 'batch_ids.txt'
+      workers:
+        description: '并发抓取线程数（站点限流，建议4-6，勿用12）'
+        required: false
+        default: '5'
+  schedule:
+    # 每周一 08:00 UTC（北京时间 16:00）自动跑一次
+    # 注意：定时触发不会带手动输入的参数，只会用仓库根目录的 batch_ids.txt
+    - cron: '0 8 * * 1'
+
+permissions:
+  contents: write
+
+jobs:
+  batch-review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Setup Node (用于内联JS数据块求值)
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install openpyxl pandas requests
+
+      - name: Run data extraction
+        id: extract
+        env:
+          PYTHONIOENCODING: utf-8
+          INPUT_IDS_FILE: ${{ github.event.inputs.ids_file || 'batch_ids.txt' }}
+          INPUT_MATCH_IDS: ${{ github.event.inputs.match_ids }}
+          WORKERS: ${{ github.event.inputs.workers || '5' }}
+        run: |
+          set -e
+          cd "$GITHUB_WORKSPACE"
+          if [ -n "${INPUT_MATCH_IDS}" ]; then
+            ARGS="${INPUT_MATCH_IDS}"
+          elif [ -f "${INPUT_IDS_FILE}" ]; then
+            ARGS="--batch ${INPUT_IDS_FILE}"
+          else
+            echo "::error::未提供 match_ids，且仓库根目录找不到 ${INPUT_IDS_FILE}"
+            exit 1
+          fi
+
+          echo "== 首次抓取（workers=${WORKERS}）=="
+          python scripts/chuqi_pipeline.py ${ARGS} --workers "${WORKERS}" || true
+          N=$(find match_data -name structured.json 2>/dev/null | wc -l)
+          echo "首次 structured.json 数量: $N"
+
+          # 首次无产出时：降并发 + 重试一次（应对站点间歇限流）
+          if [ "$N" -eq 0 ]; then
+            echo "::warning::首次抓取无产出，降低并发到 3 重试一次"
+            python scripts/chuqi_pipeline.py ${ARGS} --workers 3 || true
+            N=$(find match_data -name structured.json 2>/dev/null | wc -l)
+          fi
+
+          echo "最终 structured.json 数量: $N"
+          echo "generated=$N" >> "$GITHUB_OUTPUT"
+
+      - name: Build summary & review xlsx (仅当赛果/轮次文件齐全)
+        if: steps.extract.outputs.generated != '0'
+        run: |
+          cd "$GITHUB_WORKSPACE"
+          if [ -f match_scores.json ] && ls ids_r*.txt >/dev/null 2>&1; then
+            python scripts/build_summary.py
+            python scripts/make_review_xlsx.py
+          else
+            echo "::warning::缺少 match_scores.json 或 ids_r*.txt，跳过汇总表生成（单场 xlsx 已产出）"
+          fi
+
+      - name: Upload artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: match-review-data
+          path: |
+            match_data/**/*.xlsx
+            match_data/**/structured.json
+            match_data/summary_100.csv
+            match_data/复盘_10轮100场.xlsx
+
+      - name: Commit results (可选)
+        if: always()
+        run: |
+          cd "$GITHUB_WORKSPACE"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "chore: 批量盲测复盘数据更新 $(date -u +%Y-%m-%d)"
+          git push || echo "nothing to push"
