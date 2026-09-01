@@ -259,8 +259,8 @@ def main(mid, outpath=None):
         for row in spf["rows"]:
             status = clean_html(row[-1])
             if "滚" in status: continue  # 排除赛内
-            rows.append([name, row[1], row[2], row[3], row[4], row[5], row[7], status])
-        r = write_table(ws, r, ["公司", "赛况", "比分", "胜", "平", "负", "变化时间", "状态"], rows, [12, 10, 8, 10, 10, 10, 16, 8]) + 1
+            rows.append([name, row[1], row[2], row[3], row[4], row[5], row[6], status])  # 新聚合页列: [序,时间,比分,胜,平,负,更新时间,状态]
+        r = write_table(ws, r, ["公司", "时间", "比分", "胜", "平", "负", "变化时间", "状态"], rows, [12, 10, 8, 10, 10, 10, 16, 8]) + 1
     ws.freeze_panes = "A3"
 
     # ============ Sheet6 指数-亚盘 ============
@@ -287,8 +287,8 @@ def main(mid, outpath=None):
         for row in rq["rows"]:
             status = clean_html(row[-1])
             if "滚" in status: continue
-            rows.append([name, row[1], row[2], row[3], row[4], row[5], row[7], status])
-        r = write_table(ws, r, ["公司", "赛况", "比分", "主水", "盘口", "客水", "变化时间", "状态"], rows, [12, 10, 8, 10, 10, 10, 16, 8]) + 1
+            rows.append([name, row[1], row[2], row[3], row[4], row[5], row[6], status])  # 新聚合页列: [序,时间,比分,胜,平,负,更新时间,状态]
+        r = write_table(ws, r, ["公司", "时间", "比分", "主水", "盘口", "客水", "变化时间", "状态"], rows, [12, 10, 8, 10, 10, 10, 16, 8]) + 1
     ws.freeze_panes = "A3"
 
     # ============ Sheet7 指数-必发 ============
