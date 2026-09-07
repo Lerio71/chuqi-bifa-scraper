@@ -1,0 +1,141 @@
+{
+ "match_id": "# 真实批量请替换为你要复盘的第 N 轮比赛ID",
+ "boards": {},
+ "changes": {
+  "竞彩": {
+   "name": "竞彩",
+   "spf": null,
+   "rq": null,
+   "dxq": null
+  },
+  "Crow*": {
+   "name": "Crow*",
+   "spf": null,
+   "rq": null,
+   "dxq": null
+  },
+  "澳*": {
+   "name": "澳*",
+   "spf": null,
+   "rq": null,
+   "dxq": null
+  },
+  "12B*": {
+   "name": "12B*",
+   "spf": null,
+   "rq": null,
+   "dxq": null
+  },
+  "*365": {
+   "name": "*365",
+   "spf": null,
+   "rq": null,
+   "dxq": null
+  },
+  "易**": {
+   "name": "易**",
+   "spf": null,
+   "rq": null,
+   "dxq": null
+  },
+  "利*": {
+   "name": "利*",
+   "spf": null,
+   "rq": null,
+   "dxq": null
+  },
+  "盈*": {
+   "name": "盈*",
+   "spf": null,
+   "rq": null,
+   "dxq": null
+  },
+  "明*": {
+   "name": "明*",
+   "spf": null,
+   "rq": null,
+   "dxq": null
+  },
+  "立*": {
+   "name": "立*",
+   "spf": null,
+   "rq": null,
+   "dxq": null
+  },
+  "威廉**": {
+   "name": "威廉**",
+   "spf": null,
+   "rq": null,
+   "dxq": null
+  },
+  "伟*": {
+   "name": "伟*",
+   "spf": null,
+   "rq": null,
+   "dxq": null
+  },
+  "In*****": {
+   "name": "In*****",
+   "spf": null,
+   "rq": null,
+   "dxq": null
+  },
+  "10B*": {
+   "name": "10B*",
+   "spf": null,
+   "rq": null,
+   "dxq": null
+  },
+  "18B*": {
+   "name": "18B*",
+   "spf": null,
+   "rq": null,
+   "dxq": null
+  },
+  "平*": {
+   "name": "平*",
+   "spf": null,
+   "rq": null,
+   "dxq": null
+  },
+  "BW**": {
+   "name": "BW**",
+   "spf": null,
+   "rq": null,
+   "dxq": null
+  },
+  "Coral": {
+   "name": "Coral",
+   "spf": null,
+   "rq": null,
+   "dxq": null
+  },
+  "马*": {
+   "name": "马*",
+   "spf": null,
+   "rq": null,
+   "dxq": null
+  },
+  "1X***": {
+   "name": "1X***",
+   "spf": null,
+   "rq": null,
+   "dxq": null
+  }
+ },
+ "warnings": [
+  "detail: 抓取失败",
+  "lineup: 抓取失败",
+  "fenxi: 抓取失败",
+  "stats: 抓取失败",
+  "bifa: 抓取失败",
+  "odds1x2: 抓取失败",
+  "oddsah: 抓取失败"
+ ],
+ "summary": {
+  "boards_ok": 0,
+  "boards_total": 7,
+  "companies_with_change": 0,
+  "companies_total": 20
+ }
+}
